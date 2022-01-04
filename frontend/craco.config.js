@@ -20,6 +20,10 @@ module.exports = {
           lessOptions: {
             modifyVars: { "@primary-color": "#1DA57A" },
             javascriptEnabled: true,
+
+          },
+          eslint:{
+            enable:false
           },
         },
       },
@@ -30,5 +34,8 @@ module.exports = {
     moduleNameMapper: {
       "^@/(.+)": "<rootDir>/src/$1",
     },
+  },
+  eslint:{
+    enable:false
   },
 };
